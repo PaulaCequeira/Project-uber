@@ -56,7 +56,7 @@ label {
 
 			let calculo_auxiliar = tarifa_base + (valor_km * txt_km)+(valor_minuto * txt_tiempo);
 			let costo_viaje = (valor_porcentaje * calculo_auxiliar)+ calculo_auxiliar;
-			
+	 		
 			document.querySelector('#precio_viaje').innerHTML ="Precio Viaje: "+ costo_viaje;/* pone adentro del parrafo el valor*/
 
 			precio_viaje.push(costo_viaje);
